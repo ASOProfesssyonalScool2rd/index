@@ -6,9 +6,25 @@
 </head>
 <body>
 <h2><p>JavaScriptをボタンで動かします</p></h2>
+<!======1個目の動作HTML =======>
 <script src="main.js"></script>
+<link href="style.css" rel="stylesheet">
 <input type="button" value="押しボタン" onclick="OnButtonClick();"/><br/>
 <br/>
 <div id="output"></div>
+<!======2個目の動作HTML =======>
+<div class="page2">
+    <script src="main.js"></script>
+    <input type="button" value="2回目の押しボタン" onclick="main();"/><br/>
+    <br/>
+    <div id="main"></div>
+</div>
+<!======3個目の動作HTML =======>
+<div class="page3">
+    <script src="main.js"></script>
+    <input type="button" value="最後のボタン" onclick="button();"/><br/>
+    <br/>
+    <div id="button"></div>
+</div>
 </body>
 </html>
