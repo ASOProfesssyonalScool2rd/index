@@ -1,7 +1,12 @@
-.body{
+body {
+    background-image: url("FWBTHEOaMAIrQOw.png");
+    background-size: cover;
+    object-fit: contain;
     margin: auto;
-    margin-bottom: auto;
 }
-.URL{
-
+.Copy
+{
+    text-align: center;
+    margin: 331px 50px 0px 1000px; /*marginは上右下左の順で書く*/
+    color: darkviolet;
 }
